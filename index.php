@@ -1,11 +1,11 @@
 <?php 
 
 	include_once('views/head.php');
-	include_once('views/navbar.php');
 ?>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 well">
+				
 				<form action="" name="f1" method="post">
 					<div class="input-group">
 						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -22,8 +22,6 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="mensaje">
 				
 				</div>
+
 			</div>
 			
-<?php 
-	include_once('views/footer.php');
-?>

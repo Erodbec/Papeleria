@@ -1,46 +1,37 @@
 
-      <div class="jumbotron">
-            </div>
-
-
-  
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         
       </div>
 
+
       <div class="container">
   <h2>Compras</h2>
+
   <input class="form-control" id="myInput" type="text" placeholder="Search..">
   <br>
   <table class="table table-bordered table-striped">
     <thead>
       <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
+        <th>Cliente</th>
+        <th>Producto más comprado</th>
+        <th>Producto menos comprado</th>
+        <th>Sucursal</th>
       </tr>
     </thead>
     <tbody id="myTable1">
       <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>Manuel Enrique Rodríguez</td>
+        <td>Libreta</td>
+        <td>Corrector</td>
+        <td>Av. Xalapa</td>
       </tr>
       <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@mail.com</td>
+        <td>Karely Marín Melo</td>
+        <td>Carpetas</td>
+        <td>Plumón</td>
+        <td>Lázaro Cardenas</td>
       </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@greatstuff.com</td>
-      </tr>
-      <tr>
-        <td>Anja</td>
-        <td>Ravendale</td>
-        <td>a_r@test.com</td>
-      </tr>
+    
     </tbody>
   </table>
   
