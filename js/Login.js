@@ -21,3 +21,19 @@ $(document).ready(function(){
 		});
 	});
 });
+
+
+
+  
+$(document).ready(function(){
+  $("#Inserta").click(function(){
+    alert('ggi');
+  });
+});
+
+
+
+
+
+
+

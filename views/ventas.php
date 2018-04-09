@@ -25,12 +25,7 @@
         <td>Corrector</td>
         <td>Av. Xalapa</td>
       </tr>
-      <tr>
-        <td>Antonio López Marín</td>
-        <td>Carpetas</td>
-        <td>Plumón</td>
-        <td>Lázaro Cardenas</td>
-      </tr>
+
     
     </tbody>
   </table>

@@ -7,7 +7,7 @@
 			if($_POST['Contrasena']!=""):
 				$Usuario=$_POST['Usuario'];
 				$Contrasena=$_POST['Contrasena'];
-				$consulta=pg_query($conexion,("Select * from Usuario where Usuario='$Usuario' and Contrasena='$Contrasena'"));
+				$consulta=pg_query($conexion,("Select * from Usuarios where Usuario='$Usuario' and password='$Contrasena'"));
 				if(pg_num_rows($consulta)>0):
 					$mensajeOk=true;
 					$Usua=pg_fetch_array($consulta);
